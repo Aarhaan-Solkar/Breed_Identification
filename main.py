@@ -15,8 +15,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
 # ✅ Define Model Path & Google Drive File ID
-MODEL_PATH = "dog_breed_classifier.h5"  # Change to .h5 if needed
-GOOGLE_DRIVE_FILE_ID = "1Qe-bFMUGP6738Xcdvvn3ULqT6DNUq_Nh"  # Replace with actual Google Drive File ID
+MODEL_PATH = "dog_breed_classifier.h5"
+GOOGLE_DRIVE_FILE_ID = "1Qe-bFMUGP6738Xcdvvn3ULqT6DNUq_Nh"
 
 # ✅ Download model if missing
 if not os.path.exists(MODEL_PATH):
